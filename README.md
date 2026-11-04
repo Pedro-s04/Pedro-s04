@@ -1,16 +1,20 @@
-## Hi there 👋
+# Hola, soy Pedro 👋
 
-<!--
-**Pedro-s04/Pedro-s04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Desarrollador full stack de Santa Fe, Argentina. Trabajo con **Java / Spring Boot**, **React / Next.js** y **PostgreSQL**, todo dockerizado.
+Estudiante de la Tecnicatura Superior en Desarrollo de Software (IES Santa Fe).
 
-Here are some ideas to get you started:
+## 💼 Experiencia
+**Desarrollador full stack, SSR TECH** (equipo freelance de 3 devs)
+- **CLEVERLAB**: plataforma de cálculo nutricional para la industria alimentaria. Cálculo de rótulos y sellos de advertencia según normativa argentina (CAA / ANMAT / Ley 27.642), costo por kg, multiempresa con control de acceso por roles y suite de tests pre-producción. *Entregado al cliente. Código privado.*
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Proyectos destacados
+| Proyecto | Qué es | Stack |
+|---|---|---|
+| [PJ-Soporte](link) | Sistema de tickets e inventario con roles y JWT | Spring Boot · React · MySQL · Docker |
+| [steam-rag-chat](link) | Chat con IA que responde sobre juegos usando RAG | Node.js · SQL · embeddings |
+
+## 🛠️ Stack
+Java · Spring Boot · Spring Security · JPA · PostgreSQL · MySQL · React · Next.js · Angular · React Native · Tailwind · Docker · Git
+
+## 📫 Contacto
+[LinkedIn](tu-link) · tu-mail
