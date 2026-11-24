@@ -11,9 +11,19 @@ Me especializo en backend con **Java y Spring Boot**, bases de datos relacionale
 
 **Desarrollador Full Stack, SSR TECH** · *Freelance · 2026 – actualidad*
 
-- **Plataforma de cálculo nutricional para la industria alimentaria** *(entregada al cliente · código privado)*
-  Cálculo de tablas nutricionales y sellos de advertencia según normativa argentina (CAA / ANMAT / Ley 27.642), costo por kg, ajuste por merma de cocción y sistema multiempresa con control de acceso por roles. Suite de tests pre-producción.
-  `Spring Boot` `PostgreSQL` `React` `Next.js` `Docker`
+- **CLEVERLAB: SaaS de rotulado nutricional para la industria alimentaria** *(entregado al cliente · código privado)*
+  Automatiza el cumplimiento de la Ley 27.642 de Etiquetado Frontal y el Código Alimentario Argentino: desde materias primas y recetas versionadas hasta el cálculo automático de sellos octogonales y leyendas precautorias.
+  - Motor regulatorio único según el Decreto 151/2022, con tests unitarios de umbrales, redondeo y claims nutricionales
+  - Multi-tenant con aislamiento por empresa en todas las capas y jerarquía de roles
+  - Recetas versionadas (borrador → aprobada → archivada) · JWT con refresh y rate limiting en el login
+  `Java 21` `Spring Boot 3` `Spring Security` `PostgreSQL` `Flyway` `MapStruct` `React` `Next.js` `Docker` `Railway`
+
+- **ComPres: SaaS de presupuestación de obra civil para SADE Ingeniería** *(en producción · código privado)*
+  Plataforma multi-tenant usada a diario por el cliente para presupuestar obras: catálogo de materiales, equipos y mano de obra, análisis de precios unitarios y versionado de presupuestos con el tipo de cambio congelado.
+  - Aislamiento automático de datos por empresa y 4 roles con permisos diferenciados
+  - JWT con refresh tokens rotativos, blacklist para cierre de sesión remoto y protección contra fuerza bruta
+  - Integración con BNA (dólar) y datos.gob.ar (combustibles) · deploy continuo en Railway vía Pull Requests
+  `Java 21` `Spring Boot 3` `Spring Security` `PostgreSQL` `Flyway` `React` `Docker` `Railway`
 
 - **Fidelix** *(en desarrollo)*
   Sistema de fidelización con tarjetas NFC para comercios: carga de puntos en el local, panel por negocio, panel de superadmin y web para que los clientes consulten puntos y promociones.
