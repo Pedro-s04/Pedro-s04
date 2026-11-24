@@ -17,4 +17,4 @@ Estudiante de la Tecnicatura Superior en Desarrollo de Software (IES Santa Fe).
 Java · Spring Boot · Spring Security · JPA · PostgreSQL · MySQL · React · Next.js · Angular · React Native · Tailwind · Docker · Git
 
 ## 📫 Contacto
-[LinkedIn](tu-link) · tu-mail
+[LinkedIn](tu-link) · pedrosoria466@gmail.com
